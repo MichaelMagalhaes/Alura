@@ -1,1 +1,11 @@
-Anotações da aula 1
+Anotações da aula 1:
+
+HTML = Linguagem de marcação de texto
+
+TAGS: 
+
+<h1> = abertura do titulo
+</h1> fechamento do titulo
+
+<p> abertura de paragrafo
+</p> = fechamento de paragrafo
