@@ -2,10 +2,15 @@ Anotações da aula 1:
 
 HTML = Linguagem de marcação de texto
 
-TAGS: 
+TAGS: marcar o inicio e o final do conteúdo 
+<tag> = inicio
+</tag> = final
 
-<h1> = abertura do titulo
-</h1> fechamento do titulo
+<h1> = titulo
+<p> paragrafo
 
-<p> abertura de paragrafo
-</p> = fechamento de paragrafo
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<strong> = negrito
+<em> = itálico 
