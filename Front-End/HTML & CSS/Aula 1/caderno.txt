@@ -14,3 +14,5 @@ TAGS: marcar o inicio e o final do conteúdo
 
 <strong> = negrito
 <em> = itálico 
+
+Obs: também posso adicionar uma tag dentro de outra sem problemas.
