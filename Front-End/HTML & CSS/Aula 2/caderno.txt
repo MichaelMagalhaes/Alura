@@ -1,1 +1,17 @@
 Anotações da aula 2
+
+<!DOCTYPE> = passar informações para o navegador sobre qual a versão do HTML está sendo utilizada
+<html> = tag que marca o conteúdo que será renderizado no navegadorL
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<meta charset="UTF-8"> = passa a informação para o navegador que será utilizado o conjunto de caracteres UTF-8 (dicionario com caracteres usados na maioria das línguas e também os caracteres especiais = ç, ´, ~). 
+
+dentro do <html> podemos determinar a linguagem da página por padrão (com opções de tradução de página, caso alguem que não esteja com o idioma português configurado no computador). = <html lang="pt-br">
+
+<title> = titulo da aba na nossa página
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<head> = informações importantes que serão passadas para o navegador
+<body> = conteúdo para exibir na página
