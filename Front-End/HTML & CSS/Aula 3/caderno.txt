@@ -1,4 +1,57 @@
 Aula 3 
 
-<p style= "font-size: 20px"> = Aumenta o tamanho da fonte.
-test2
+<p (ou <h1) style= "font-size: 20px"> = Aumenta o tamanho da fonte.
+<h1 (ou <p) style= "text-align:center"> = centraliza o texto
+<p style="font-size: 20px; text-align: center" = ";" para adicionar 2 informações no mesmo paragrafo (font-size e text-align).
+
+--------------------------------------------------------------------------------------------------------------------
+
+Inline: adicionar somente na mesma linha (no elemento onde ele foi criado): <h1 (ou <p) style= "text-align:center">
+Tag Style: vai ser aplicado na página inteira (adicionar dentro do head)
+Arquivo Externo: todo o CSS = <link rel="stylesheet" href="style.css" = criar um arquivo CSS na mesma pasta.
+
+--------------------------------------------------------------------------------------------------------------------
+
+<h1 style="text-align: center; background: #CCCCCC;"> = cor de fundo do elemento em cinza (exemplo)
+
+Exemplo de arquivo CSS:
+body{
+    background: #CCCCCC;
+}
+
+p {
+    text-align: center;
+    
+}
+
+em strong{     
+    color: red;
+}
+= o "em" serve para determinar somente a enfase e selecionar somente os "strong" com essa enfrase, fazendo com que outras linhas somente com strong, não sejam afetadas por essa modificação.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Resumo:
+
+--Mexer na apresentação dos textos
+No alinhamento deles (text-align)
+No tamanho da fonte (font-size)
+Na cor de fundo (background)
+Na cor do texto (color)
+
+--CSS inline
+Na linha onde temos a nossa tag, adicionamos a propriedade do CSS
+
+--A tag <style>
+Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
+
+--A apresentação do CSS com um arquivo externo
+
+--estilo em cascata do CSS (pai e filho)
+
+--Como importar um arquivo externo de CSS dentro da nossa página HTML
+
+--Como representar cores no CSS
+Através do nome da cor
+Através do seu hexadecimal
+Através do seu RGB
