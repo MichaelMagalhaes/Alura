@@ -1,10 +1,10 @@
-Ajuste de styles da pagina html para o css:
+- Ajuste de styles da pagina html para o css:
 
 h1{
     text-align: center;
 }
-
-marcando um paragrafo especifico no CSS:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- marcando um paragrafo especifico no CSS:
  HTML: <p id="missao"><em> Nossa missão é: <strong> "Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
  CSS: 
  
@@ -15,7 +15,24 @@ marcando um paragrafo especifico no CSS:
 #missao {
     font-size: 20px
 }
-
-Adicionar uma imagem na pagina:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Adicionar uma imagem na pagina:
 <img src="banner.jpg">
+
+- Syle para uma imagem:
+
+HTML: <img id="banner"  src="banner.jpg">
+CSS: 
+#banner{
+   width: 100% 
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Developer tools (F12 muito utilizado para visualizar como está o layout da página)*
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Dimensão dos elementos
+Largura == width: 100%;
+Altura == height: 100px;
+Borda == border: 10px solid #000000; 
+Espaçamento interno == padding: 20px;
+Espaçamento externo == margin: 40px;
 
