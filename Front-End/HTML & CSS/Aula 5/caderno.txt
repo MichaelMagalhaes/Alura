@@ -60,4 +60,23 @@ Dentro do CSS:
 background: #FFFFFF
            }
            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+o comportamento de uma tag ocupar a largura inteira da linha se chama = "BLOCK"
+uma imagem por exemplo, deixa que tenha outros conteúdos na lateral, esse comportamento se chama = "INLINE" mas não nós deixa alterar o espaçamento interno e externo
+temos uma 3ª caracteristica que se chama "INLINE-BLOCK" = ele bloqueia uma largura mas é fixa (eu decido o tamanho), também podemos mexer na largura, nos espaçamentos interno e externo.
 
+essas são as 3 são caracteristicas do display:
+Ex:
+
+ul {
+        display: inline-block
+   }
+   
+Alguns parametros que podemos modificar:
+
+ul{
+    display: inline-block; = caracteristica do inline-block
+    vertical-align: top;  = caso queremos que o item seja alinhado pela linha do topo
+    width:20%; = largura
+    margin-right: 15%; = margem para direita
+   }
