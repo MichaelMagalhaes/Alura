@@ -38,4 +38,26 @@ NO CSS:
        
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Divisões no conteúdo = <div>
+Servem para marcarmos o conteúdo para facilitar os efeitos do nosso CSS
+
+Ex:
+        <div>
+            <h2> Benefícios </h2>
+            <ul>
+                <li class="itens">Atendimento aos Clientes</li> 
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais Qualificados</li>
+            </ul>
+        </div>
+       
+Também podemos marcar a nossa div para realizarmos modificações dentro do CSS:
+<div class="beneficios">
+
+Dentro do CSS:
+.beneficios{
+background: #FFFFFF
+           }
+           
 
