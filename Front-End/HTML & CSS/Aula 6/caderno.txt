@@ -1,1 +1,37 @@
-Anot
+Cabeçalho da página (tag de conteúdo) == <header>
+Passarmos a informação para o navegador (tag de estrutura) == <head>
+
+Ex:
+<header>
+            <h1>Barbearia Mikas</h1>
+</header> 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Eu posso definir classes no h1, h2, onde eu posso estilizar a mesma caracteristica para varias tags ao mesmo tempo dentro do CSS
+Ex:
+
+HTML:
+<h2 class="titulo-centralizado">Sobre a Barbearia Mikas</h2>
+<h3 class="titulo-centralizado"> Benefícios </h3>
+
+CSS:
+.titulo-centralizado{
+    text-align: center;
+}
+
+
+Ou definir um classe para estilizar no CSS uma tag específica. 
+
+HTML:
+<h1 class="titulo-principal">Barbearia Mikas</h1>
+
+CSS:
+.titulo-principal{
+    padding-left: 20px;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#exemplo = identificador
+.exemplo = classe
