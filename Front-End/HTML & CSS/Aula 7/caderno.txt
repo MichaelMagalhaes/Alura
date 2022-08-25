@@ -1,0 +1,25 @@
+Criando uma nova página para adicionar no projeto.
+
+- Criar novo arquivo
+Ex: produtos.html
+produtos.css
+e realizar o link entre o HTML e CSS:
+
+<head>
+<link rel="stylesheet" href="produtos.css">
+</head>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Criando um cabeçalho:
+Dentro do header podemos criar um h1 e adicionar uma imagem e uma lista dentro dessa tag.
+Ex:
+<header>
+            <h1><img src="logo.png"></h1>
+            
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+</header>
