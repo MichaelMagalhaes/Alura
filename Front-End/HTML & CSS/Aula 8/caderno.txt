@@ -1,0 +1,45 @@
+Navegação entre páginas
+
+Para navegar entre as páginas do nosso projeto podemos utilizar as âncoras ou anchor, que pode ser utilizado utilizando a tag <a>
+Ex:
+
+<ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+ </ul>
+ 
+ 
+ Para navegar em páginas já existentes da internet, podemos adicionar o link diretamente:
+ 
+<li><a href="https://www.google.com">Contato</a></li>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para podermos configurar corretamente um menu de navegação, podemos utilizar a tag <nav>
+Exemplo:
+HTML:
+<nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+</nav>
+
+Dessa forma, podemos organizar melhor nosso CSS, focando em elementos especificos
+CSS:
+nav li{
+    display: inline; //mudar a nossa lista para inline (ou seja sem as formas de restrição utilizadas pelos elementos, colocando os itens da nossa lista, um do lado do outro)
+    margin: 0 (topo) 0 (direita) 0 (baixa) 15px (esquerda); //jogar o espaçamento para o lado esquerdo (pois nesse caso, eu queria colocar a lista colada no lado direito),
+}
+
+nav a{
+    text-transform: uppercase;  //transformar o texto para ter todas as letras maiúsculas
+    color: #000000; //cor preto no texto
+    font-weight: bold; //texto em negrito
+    font-size: 22px; //tamanho do texto
+    text-decoration: none; //Como remover a decoração do texto, sublinhados etc.
+}
+
+            
