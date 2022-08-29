@@ -1,0 +1,36 @@
+Arquivo de reset em CSS: serve para limpar algumas alterações que o navegador utiliza no estilo da página. Criar um link do arquivo no HTML.
+Ex:
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="produtos.css">
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Posicionamento pode ser dividido em 3: estatico, relativo e absoluto
+static: posição natural/inicial do elemento, não é ajustada pelas modificações de topo, esquerda etc.
+
+relatic: vai olhar o ponto inicial, mas vai ter uma nova opção relativa a posição inicial
+Ex de posicionamento relativo:
+position: relative;
+top: 27px;
+left: 28px;
+
+absolute: muda a posição inicial do elemento, para qualquer lugar da página
+Ex de posicionamento absoluto:
+position: absolute;
+top: 0;
+right: 0;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Organizando o cabeçalho em forma de caixa: para centralizar um conteúdo no meio do cabeçalho com mais facilidade.
+Ex: HTML:
+div class="caixa">
+
+CSS:
+.caixa{
+    position: relative; // ponto relativo o caixa criada e não a página (como é o caso do absolute)
+    width: 940px; //largura fixa (940px padrão na web)
+    margin: 0 auto; // para cima e para baixo (0), e para direita e esquerda se calculem automaticamente = auto
+
+}
+
