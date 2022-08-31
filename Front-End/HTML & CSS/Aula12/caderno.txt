@@ -1,0 +1,31 @@
+Mapeamento o comportamento do mouse:
+
+Quando o mouse está por cima do elemento: hover
+Ex:
+nav a{
+
+}
+
+nav a:hover{
+    color: #C78C19; //a cor do elemento fica amarelo quando passamos o mouse por cima dele
+    text-decoration: underline; //o elemento fica sublinhado quando passamos o mouse por cima dele
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.produtos li:hover {        //mouse está por cima do elemento
+    border-color: #C78C19;
+}
+
+
+.produtos li:active{         //mouse está sendo pressionado no elemento
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{      //modificar o h2(titulo do elemento por exemplo) quando o mouse estiver por cima do li dos produtos (lista ex) 
+    font-size: 34px;
+}
+
+Resumindo:
+-hover: quando o usuário passa o cursor sobre o elemento
+-active: quando um elemento está sendo ativado pelo usuário
