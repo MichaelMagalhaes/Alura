@@ -1,1 +1,23 @@
-teste
+Bordas (tamanho, tipo e cor):
+Ex:
+
+border-width: 2px; (tamanho)
+
+border-style: solid (uma borda em negrito) / dashed (borda em tracejado) / dotted (borda com pontilhados) 
+
+border-color: #000000; (cor)
+
+Ou posso declarar as 3 caracteristicas de uma só vez:
+border: 2px solid #000000;
+
+Ordem das caixas:
+caixa do conteúdo
+padding: espaçamento interno
+border: borda (no meio)
+margin: espaçamento externo
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Borda arredondada:
+
+border-radius: 10px; == define o raio dos cantos do elemento (deixando o elemento arredondado por exemplo)
