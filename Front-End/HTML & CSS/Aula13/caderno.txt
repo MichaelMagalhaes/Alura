@@ -1,0 +1,39 @@
+Rodapé == footer
+
+Ex:
+<header>
+</header>
+<main>
+</main>
+<footer>
+            <img src ="logo-branco.png">
+            <p>Copyright Barbearia Mikas - 2022</p>
+</footer>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como colocar uma imagem de fundo de um elemento (rodapé por exemplo):
+Ex:
+footer{
+    text-align: center;
+    background: url("bg.jpg"); // url = endereço da imagem
+    padding: 40px 0;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Símbolos especiais como o "©" (sinal de direitos autorais):
+página com varios simbolos: https://unicode-table.com/pt/
+Ex:
+HTML:
+<footer>
+            <img src ="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Mikas</p>
+</footer>
+
+CSS:
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
