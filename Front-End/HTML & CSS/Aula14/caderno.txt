@@ -1,0 +1,20 @@
+Criando página de contato:
+
+Podemos copiar o header e footer da nossa outra página (produtos) para a nossa página (contato), assim mantendo o mesmo layout entre as 2.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Organizando o css corretamente, sempre chamamos o css principal, ou seja, utilizado em varias outras páginas de "style.css", assim, podemos chama-lo na nossa página em 
+<head>
+
+Ex:
+<head>
+        <meta charset="UTF-8">
+        <title>Contato - Barbearia Mikas</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Um formulario pode servir para enviar os dados para uma outra página, capturar informações que o usuário digitar, enviar dados para um servidor, etc.
