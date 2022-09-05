@@ -1,1 +1,39 @@
-test
+Criando um formulário
+
+Tag de formulario == <form> 
+
+entrada de dados do usuário  == <input>
+Ex: 
+<input type = "text">
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para adicionar uma etiqueta / legenda referente ao texto digitado no input, podemos usar a tag <label>
+Ex:
+<form>
+           <label>Nome e sobrenome</label>
+           <input type="text">
+ </form> 
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Podemos conectar um input com a sua label para melhorar a estrutura e facilitar o uso do usuário.
+Ex:
+<form>
+         <label for="nomesobrenome">Nome e sobrenome</label>          //referenciando o id do input na label usando o atributo "for"
+         <input type="text" id="nomesobrenome">                       //adicionando um id para o campo texto nome e sobrenome
+</form> 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Criar input para envio dos dados == <input type ="submit" value ="Enviar formulário"> //adicionando para o tipo "submit" (enviar) e adicionando um valor para esse input
+
+Aumentar o espaço/tamanho dentro do input:
+Ex:
+CSS:
+form input{
+    display: block;          //ocupar a linha inteira (1 item por linha)
+    margin: 0 0 20px;        //espaço entre o input e label  
+    padding: 10px 25px;      //espaço do input 10px para cima e para baixo e 25px para os lados
+    width: 50%;              //largura de 50%
+}
