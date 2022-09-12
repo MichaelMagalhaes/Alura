@@ -1,1 +1,30 @@
-Teste
+Inserindo campo de mensagem == <textarea>
+Ajustar colunas == <textarea cols="30">
+Ajustar linhas -- <textarea rows="10">
+<textarea cols="30" rows="10"></textarea>
+
+
+Selecionar uma opção == <radiobox>
+<input type="radio" value="email"> 
+Ex:
+                    <div>
+                        <p>Como prefere o nosso contato?</p>
+                        <label for="radio-email">Email</label>
+                        <input type="radio" name="contato" value="email" id="radio-email">
+
+                        <label for="radio-telefone">Telefone</label>
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                        <label for="radio-whatsapp">Whatsapp</label>
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    </div>
+                    
+
+<label>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Caixa de seleção == <input type="checkbox">
+
+Ex:
+<label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
