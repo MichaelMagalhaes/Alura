@@ -28,3 +28,18 @@ Caixa de seleção == <input type="checkbox">
 
 Ex:
 <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Seletor == <select>
+campo de seleção de um item, e dentro podemos adicionar o option, que representa cada opção do seletor
+
+Ex:
+<div>
+       <p>Qual horario prefere ser atendido</p>
+            <select>
+               <option>Manhã</option> 
+               <option>Tarde</option>
+               <option>Noite</option>
+            </select>
+</div>
