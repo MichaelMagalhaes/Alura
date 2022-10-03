@@ -1,1 +1,37 @@
-Teste 
+tipos de inputs para celular: email, tel, number, password, date, datetime, month e search
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Obrigatoriedade de um campo == atributo required
+Ex:
+<label for="nomesobrenome">Nome e sobrenome</label>
+<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sugestão de preenchimento para os campos == atributo placeholder,
+Ex:
+<label for="email">Email</label>
+<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Deixar uma opção marcada por padrão nos nossos input radio e checkbox == atributo checked
+Ex:
+<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como estruturar melhor o nosso código com fieldset e legend = Fieldset é usada para agrupar elementos relacionados dentro de um formulário, desenhando uma borda em torno desses elementos. Ela é especialmente útil na organização de formulários extensos. Junto com ela, usamos a tag <legend> para definir um título para o bloco.
+Ex:
+<fieldset>
+   <legend>Como prefere o nosso contato?</legend>
+             <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+             <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>               
+</fieldset>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como adicionar uma alternativa à imagem (acessibilidade), descrevendo-a, com o atributo alt
+Ex:
+<h1><img src="logo.png" alt="Logo da Barbearia Mikas"></h1>
